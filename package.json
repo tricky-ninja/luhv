@@ -1,7 +1,7 @@
 {
   "name": "luhv",
   "version": "1.1.0",
-  "description": "A simple npm package for flames relation game and to find love count.",
+  "description": "A simple npm package with flames relation game, love calculation, ask 8ball and truth or dare.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,10 @@
   "keywords": [
     "love",
     "flames",
-    "ship"
+    "ship",
+    "8ball",
+    "truth",
+    "dare"
   ],
   "author": "arshalabbas",
   "license": "ISC",
