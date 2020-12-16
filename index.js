@@ -1,3 +1,5 @@
+const responses = require('./files/responses');
+
 module.exports = {
     loveCount: (name1, name2, love, err) => {
         if (!name1 || !name2) {
@@ -141,5 +143,20 @@ module.exports = {
         else {
             return false;
         }
+    },
+    eightBall: (response) => {
+        const answersArray = responses.eightBall;
+        const answer = answersArray[Math.floor(Math.random() * answersArray.length)];
+        response(answer);
+    },
+    truth: (response) => {
+        const truthsArray = responses.truth;
+        const truth = truthsArray[Math.floor(Math.random() * truthsArray.length)];
+        response(truth);
+    },
+    dare: (response) => {
+        const daresArray = responses.dare;
+        const dare = daresArray[Math.floor(Math.random() * daresArray.length)];
+        response(dare);
     }
 }
