@@ -1,6 +1,6 @@
 {
   "name": "luhv",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A simple npm package with flames relation game, love calculation, ask 8ball and truth or dare.",
   "main": "index.js",
   "scripts": {
