@@ -39,7 +39,7 @@ Included four funtions in this module:
 ```js
 const luhv = require('luhv');
 
-luhv.loveCount('Arshal', 'Anushka', (love) => {
+luhv.loveCount('Vasim', 'Amala', (love) => {
     console.log(`Love Percentage: ${love}%`);
 }, (err) => {
     console.log(err);
@@ -67,7 +67,7 @@ result's outputs: `friends, lovers, affections, marriage, enemy, sister`
 ```js
 const luhv = require('luhv');
 
-luhv.flames('Arshal', 'Anushka', (flames) => {
+luhv.flames('Vasim', 'Amala', (flames) => {
     console.log(`Flames result: ${flames}`);
 }, (err) => {
     console.log(err);
