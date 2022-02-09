@@ -278,7 +278,7 @@ module.exports = {
         "Lick the wall",
         "Exchange shirts with the person next to you",
         "Try licking your elbow.",
-        "Give a flying kiss to a girl",
+        "Give a lip kiss to someone near you and sent a screenshot",
         "Crack an egg on your head.",
         "Call your parents and tell them you're dropping out",
         "Record yourself doing the silliest dance you can do, and post it to Facebook",
